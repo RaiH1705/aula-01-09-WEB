@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer2 aula 01/09</title>
+    <style>
+        header{
+            background-color: rgb(22, 18, 18);
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(22, 18, 18);
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        .bio{
+            color: antiquewhite;
+            font-size: 17px;
+        }
+
+        .baixo{
+            color: antiquewhite;
+            font-size: 10px;
+        }
+
+        section{
+            text-align: center;
+            background-color: rgb(244, 244, 244);
+        }
+
+        button{
+            background-color: #333;
+            color: #fff;
+            padding: 4px 240px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #555;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+        <h1 class="bio">Fale Conosco</h1>
+        <br>
+    </header>
+    <br>
+    <section>
+        <fieldset>
+            <h3>Envie-nos uma mensagem</h3>
+            <table>
+                <tr>
+                    <td>Nome: </td>
+                    <td>
+                        <input type="text" id="name" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mensagem: </td>
+                    <td>
+                        <textarea type="text" id="mensagem" name="mensagem" cols="19"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <form>
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+            <footer>
+                <p class="baixo">©2023 Rai</p>
+            </footer>
+        </fieldset>
+        </table>
+    </section>
+</body>
+</html>
